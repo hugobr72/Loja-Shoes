@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { useFetch } from '../hooks/useFetch';
 import styles from './Products.module.css';
 
+
 const Products = () => {
-  
-  const [data, setData] = useState([])
+
+  const data = useFetch('https://loja-shoes.vercel.app/data/shoes.json')
   const [itensPerPage, setItensPerPage] = useState(10)
   const [currentPage, setCurrentPage] = useState(0)
 
@@ -16,15 +18,6 @@ const Products = () => {
 
 
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const result = await fetch('https://loja-shoes.vercel.app/data/shoes.json')
-        .then((response) => response.json())
-        .then(data => data);
-      setData(result);
-    }
-    fetchData()
-  }, [])
 
   useEffect(() => {
     setCurrentPage(0)

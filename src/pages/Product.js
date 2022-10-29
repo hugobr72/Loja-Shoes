@@ -1,25 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useParams } from 'react-router';
+import { useFetch } from '../hooks/useFetch';
 import styles from './Product.module.css';
 
 const Product = () => {
-
   const { id } = useParams();
-
-  const [data, setData] = useState([]);
   const [index] = useState(Number(id) + 1);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const result = await fetch('https://loja-shoes.vercel.app/data/shoes.json')
-        .then((response) => response.json())
-        .then(data => data);
-      setData(result);
-    }
-    fetchData()
-  }, [])
-  let produto = data.slice(id, index)
-  console.log(data)
+  const fethData = useFetch('https://loja-shoes.vercel.app/data/shoes.json')
+  let produto = fethData.slice(id, index)
 
   return (
     <div className={styles.Product}>
