@@ -19,3 +19,25 @@
   color: #111;
   font-size: 1.6rem;
 }
+
+
+@media (max-width: 768px) {
+  .about h2{
+    font-size: 1.6rem;
+  }
+
+  .about p{
+    font-size: 1.2rem;
+  }
+}
+
+
+@media (max-width: 438px) {
+  .about h2{
+    font-size: 1.2rem;
+  }
+
+  .about p{
+    font-size: 0.8rem;
+  }
+}

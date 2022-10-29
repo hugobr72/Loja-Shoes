@@ -98,4 +98,20 @@
 }
 
 
+@media (max-width: 768px) {
+
+  .buttons button{
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .buttons select{
+    font-size: 12px;
+    width: 35px;
+    height: 35px;
+  }
+
+}
+
 

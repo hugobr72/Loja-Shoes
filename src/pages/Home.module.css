@@ -1,6 +1,22 @@
-.Home{
-  background: url(../img/home.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 90vh;
+.Home {
+  max-width: 100%;
+  margin-bottom: -4px;
+  padding-bottom: 0;
+}
+
+.Home img{
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .Home img{
+    display: none;
+  }
+
+  .Home {
+    background-color: #86BBD8;
+    height: 72vh;
+  }
 }

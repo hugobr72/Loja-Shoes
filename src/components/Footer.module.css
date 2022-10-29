@@ -1,0 +1,20 @@
+.footer {
+  margin-top: 35px;
+  height: 20vh;
+  background-color: #2F4858;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e8f0f8;
+}
+
+.footer a {
+  color: #e8f0f8;
+  transition: 0.8s;
+}
+
+.footer a:hover {
+  color: #e8f0f82c
+}
+

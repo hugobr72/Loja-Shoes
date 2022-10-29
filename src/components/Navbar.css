@@ -35,3 +35,34 @@ header ul a:hover {
 .active {
   color: #86BBD8;
 }
+
+
+@media (max-width: 768px) {
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  header ul li a{
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 400px) {
+
+  header{
+    display: block;
+    text-align: center;
+    height: 15vh;
+  }
+
+  header h1 {
+    padding: 16px 0;
+    font-size: 18px;
+  }
+
+  header ul li a{
+    font-size: 15px;
+  }
+}

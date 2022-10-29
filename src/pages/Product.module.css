@@ -1,9 +1,9 @@
 .Product {
-  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 50px 0;
 }
 
 .Product li {
@@ -26,4 +26,10 @@
 .Product li h2 {
   margin-top: 12px;
   font-size: 18px;
+}
+
+.Product span {
+  margin-top: 10px;
+  text-decoration: line-through;
+  color: red;
 }
