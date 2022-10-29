@@ -1,0 +1,101 @@
+.list {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  text-align: center;
+  place-content: center;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+  background-color: #1b98e0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.list li img {
+  width: 200px;
+  margin-top: 25px;
+}
+
+.list li h2 {
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.Products button{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #13293d;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 4px 3px 5px 2px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+}
+
+
+.buttons{
+  margin: 20px 0px;
+}
+
+.buttons button {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #13293d;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.list a{
+  margin-top: 20px;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products select {
+  border: none;
+  background-color: #13293d;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  width: 55px;
+  height: 50px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.list span {
+  margin-top: 10px;
+  text-decoration: line-through;
+  color: red;
+}
+
+.Products h3{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
+

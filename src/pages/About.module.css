@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91vh;
+  flex-direction: column;
+  background: url('https://cdn.pixabay.com/photo/2022/03/31/19/45/shoes-7103597_960_720.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about h2{
+  font-size: 2.3rem;
+}
+
+.about p{
+  
+  margin-top: 10px;
+  color: #111;
+  font-size: 1.6rem;
+}

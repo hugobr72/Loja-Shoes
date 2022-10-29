@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  height: 60px;
+  background-color: #2F4858;
+  color: #e8f0f8;
+  text-shadow: 7px 4px 8px rgba(0,0,0,0.57);
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.37);
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+header ul li {
+  height: 20px;
+}
+
+header ul a {
+  padding: 0 10px;
+  color:  #e8f1f2;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header ul a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: #86BBD8;
+}
