@@ -15,9 +15,10 @@
   flex-direction: column;
   width: 300px;
   height: 450px;
-  background-color: #1b98e0;
+  background-color: #808080;
   border-radius: 10px;
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .list li img {
@@ -30,7 +31,7 @@
   font-size: 18px;
 }
 
-.Products button{
+.Products button {
   border: none;
   padding: 10px;
   margin: 10px;
@@ -45,7 +46,7 @@
 }
 
 
-.buttons{
+.buttons {
   margin: 20px 0px;
 }
 
@@ -63,7 +64,7 @@
   height: 50px;
 }
 
-.list a{
+.list a {
   margin-top: 20px;
   color: #fff;
 }
@@ -74,13 +75,27 @@
   align-items: center;
 }
 
+.buttons select {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #13293d;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 60px;
+  height: 50px;
+}
+
 .list span {
   margin-top: 10px;
   text-decoration: line-through;
   color: red;
 }
 
-.Products h3{
+.Products h3 {
   margin-top: 10px;
   font-size: 20px;
   margin-bottom: 50px;
@@ -89,18 +104,16 @@
 
 @media (max-width: 768px) {
 
-  .buttons button{
+  .buttons button {
     font-size: 15px;
     width: 35px;
     height: 35px;
   }
 
-  .buttons select{
+  .buttons select {
     font-size: 12px;
     width: 35px;
     height: 35px;
   }
 
 }
-
-
