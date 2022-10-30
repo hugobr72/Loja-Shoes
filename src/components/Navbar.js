@@ -25,7 +25,7 @@ const Navbar = () => {
     <header>
       <h1>Lojão Shoes</h1>
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder='Pesquise pela marca do tênis...' onChange={(e) => setInputValue(e.target.value)} />
+        <input type="text" placeholder='Pesquise pela marca do tênis...' onChange={(e) => setInputValue(e.target.value)} value={inputValue}/>
         <input type="submit" value="Procurar" />
       </form>
       <nav>
